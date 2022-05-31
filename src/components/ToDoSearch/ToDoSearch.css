@@ -1,0 +1,53 @@
+.SearchContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+.ToDoSearch{
+    width: 1rem;
+    height: 3rem;
+    border-radius: 2rem;
+    color: transparent;
+    text-align: center;
+    font-size: 2rem;
+    border: none;
+    background: transparent;
+    transition: all .3s ease-in-out;
+}
+
+.ToDoSearch::placeholder{
+    text-align: center;
+}
+
+.ToDoSearch:focus{
+    width: 40rem;
+    height: 4rem;
+    transition: all .3 ease-in-out;
+    background-color: aliceblue;
+    color: black;
+}
+
+.ToDoSearch:hover{
+    width: 40rem;
+    height: 4rem;
+    background-color: aliceblue;
+    transition: all .3 ease-in-out;
+}
+
+
+.aiOut{
+    font-size: 4rem;
+    color: #1476c7;
+}
+.aiOut:hover{
+    transition: .3s;
+    color: #62aeec;
+}
+
+
+.ToDoSearch::placeholder{
+    font-size: 2rem;
+    margin-right: 1rem;
+}

@@ -1,0 +1,32 @@
+.CreateButton{
+    align-self: flex-end;
+    margin: 2rem;
+    border-radius: 5rem;
+    border: 1px;
+    height: 5rem;
+    width: 5rem;
+    font-size: 2.2rem;
+    transform: scale(1);
+    color: azure;
+    background-color: #2790e6;
+    transition: all .3s ease-in-out;
+    z-index: 2;
+}
+.fa-plus-large{
+    background-color: aliceblue;
+}
+
+.CreateButton:hover{
+    background-color: #0d5fa1;
+    transition: .3s;
+    color: rgb(26, 218, 252);
+    font-size: 2.5rem;
+    transform: scale(1.2);
+    rotate: 360deg;
+    cursor:pointer
+}
+
+.CreateButton:active{
+    background-color: #03355c;
+    color: #57ecd8;
+}

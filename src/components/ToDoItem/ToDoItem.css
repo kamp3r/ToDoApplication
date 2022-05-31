@@ -1,0 +1,64 @@
+.ToDoItem {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  background: #1476c7;
+  width: auto;
+  height: 5rem;
+  border-radius: 1.2rem;
+  color: antiquewhite;
+  flex: auto;
+  padding: 1rem;
+  font-weight: 400;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.ToDoItem:hover {
+  background: #165d97;
+  transition: all 0.3s ease-in-out;
+}
+
+.task{
+    display: flex;
+    margin: 3rem;
+}
+
+.taskCompleted{
+    text-decoration: line-through;
+}
+
+.containerIcons{
+    display: block;
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+.iconCheck{
+    display: flex;
+    margin: 0 1rem;
+    cursor: pointer
+}
+.iconCheckcompleted{
+    color: greenyellow;
+}
+
+.iconCheck:hover{
+    color: greenyellow;
+    transition: all 0.3s ease-in-out;
+    
+}
+.iconCancel:hover{
+    color: red;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer
+}
+
+.iconEdit:hover{
+    color: #ffc107;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer
+}
+
+
+

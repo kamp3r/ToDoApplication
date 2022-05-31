@@ -1,0 +1,4 @@
+.ToDoList{
+    display: flex;
+    flex-direction: column;
+}
